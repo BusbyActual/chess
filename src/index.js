@@ -1,6 +1,6 @@
-var config = require('../config.js');
-var express = require('express');
-var app = express('../config.js');
+const config = require('../config.js');
+const express = require('express');
+const app = express('../config.js');
 
 require('./server/config/routes.js')(app, express);
 

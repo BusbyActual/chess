@@ -1,5 +1,5 @@
-var chessHandler = require('../handlers/chessHandler.js');
-console.log(chessHandler)
+const chessHandler = require('../handlers/chessHandler.js');
+
 module.exports = (app, express) => {
 
  app.get('/', (req, res) => {
