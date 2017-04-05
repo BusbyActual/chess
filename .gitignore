@@ -1,2 +1,5 @@
 ## Local Secrets
 secrets.json
+
+## Local Files
+./node_modules
