@@ -1,0 +1,24 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "A lightweight chess emulator that shows all posible moves for the current player",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BusbyActual/chess.git"
+  },
+  "author": "Ryan Busby",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BusbyActual/chess/issues"
+  },
+  "homepage": "https://github.com/BusbyActual/chess#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
+}
