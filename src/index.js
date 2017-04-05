@@ -6,7 +6,7 @@ require('./server/config/routes.js')(app, express);
 
 app.set('port', config.port);
 
-app.listen(app.get('port'), function() {
+app.listen(app.get('port'), () => {
   console.log('listening on port ', app.get('port'));
 });
 
