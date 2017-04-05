@@ -1,4 +1,4 @@
-
+var chessHandler = require('../handlers/chessHandler.js');
 
 module.exports = (app, express) => {
 
@@ -6,9 +6,8 @@ module.exports = (app, express) => {
     res.json('hello, world + Placeholder UI');
   });
 
- app.post('/api/chess'), (req,res) => {
-    //API entry point for chess request.
-    res.json('Do chess things here');
- }
+ app.post('/api/chess', (req, res) => {
+   res.json(chessHandler.getMoves());
+ });
 
 };
